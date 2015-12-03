@@ -1,0 +1,40 @@
+[Eagle]
+Version="06 04 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/Passive.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/Connectors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/Power Management.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/LEDS.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/Molex_Connectors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/POV_Master_AT32UC3B1256_V15.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/Sensors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/SparkFun/SparkFun.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-5.10.0/lbr/My Parts/spinfx_module_v16.2.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/Microchip_By_element14_Batch_1.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/Wasserman Libary/PIC12F1840.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/Wasserman Libary/Hoop_94/Phoenix_Hoop_94_PolyPro_AlwaysOn.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/daspilker-eagle-library/daspilker.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-LED.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-Aesthetics.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-Passives.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/SparkFun-Eagle-Libraries/SparkFun-Electromechanical.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/Wasserman Libary/TiLDA Mk2 Parts.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/Wasserman Libary/ground-junctions.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/Wasserman Libary/Passive.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="2091 103 3215 1013"
+State=2
+Number=0
+
+[Desktop]
+Screen="3328 1152"
+Window="Win_1"

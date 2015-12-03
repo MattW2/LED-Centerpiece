@@ -1,0 +1,28 @@
+Partlist
+
+Exported from Wedding_Centerpiece_Controller_V1.2.sch at 11/7/2014 6:28:05 PM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value                                     Device                                    Package                                    Library                          Sheet
+
+C1       4.7u                                      CAP0402-CAP                               0402-CAP                                   SparkFun-Passives                1
+C2       4.7u                                      CAP0402-CAP                               0402-CAP                                   SparkFun-Passives                1
+J1       ISPTOUCH_HEADER                           ISPTOUCH_HEADER                           AVX_9188_6-WAY_MATING_GUIDE                daspilker                        1
+JP1      VCC                                       PINHD-1X1                                 1X01                                       pinhead                          1
+JP2      GND                                       PINHD-1X1                                 1X01                                       pinhead                          1
+LED1     RED                                       LED0603                                   LED-0603                                   SparkFun-LED                     1
+LED2     GREEN                                     LED0603                                   LED-0603                                   SparkFun-LED                     1
+Q1       PCHANNELSOT23 Si2301CDS-T1-E3             JEREMIAH_MOSFET-PCHANNELSOT23             JEREMIAH_SOT23                             Phoenix_Hoop_94_PolyPro_AlwaysOn 1
+R1       4.7k                                      R-US_R0402                                R0402                                      resistor                         1
+R2       2K                                        R-US_R0402                                R0402                                      resistor                         1
+R3       4.7k                                      R-US_R0402                                R0402                                      resistor                         1
+R4       4.7k                                      R-US_R0402                                R0402                                      resistor                         1
+S1       JEREMIAH_SWITCH-MOMENTARY-2EVQP4          JEREMIAH_SWITCH-MOMENTARY-2EVQP4          JEREMIAH_EVQP4_SWITCH                      Phoenix_Hoop_94_PolyPro_AlwaysOn 1
+U1       MCP73832T-2ACI/OT                         MCP73832T-2ACI/OT                         SOT95P280X145-5N                           Microchip_By_element14_Batch_1   1
+U2       JEREMIAH_USB_MICROB_PLUGZX62R-B-5P        JEREMIAH_USB_MICROB_PLUGZX62R-B-5P        JEREMIAH_USB_MICRO_ZX62R-B-5P              Phoenix_Hoop_94_PolyPro_AlwaysOn 1
+U3       JEREMIAH_LED_STRIP_WS2801CLENLED_2L_BEGIN JEREMIAH_LED_STRIP_WS2801CLENLED_2L_BEGIN JEREMIAH_LED_STRIP_WS2801_CLENLED_2L_BEGIN Phoenix_Hoop_94_PolyPro_AlwaysOn 1
+U4       PIC16F1788-I/ML                           PIC16F1788-I/ML                           QFN65P600X600X100-29N                      Microchip                        1
+U5       JOYSTICK_5_WAYSKRHAAE010                  JOYSTICK_5_WAYSKRHAAE010                  ALPS_SKRHAAE010                            Switches                         1

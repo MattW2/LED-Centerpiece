@@ -1,0 +1,317 @@
+(PCB "C:/Users/Matt/Documents/eagle/Wedding Centerpiece/Wedding_Centerpiece_Controller_V1.0.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft')
+  )
+  (resolution inch 254000)
+  (unit inch)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  0.000000 0.000000 0.560000 0.950000)
+    )
+    (boundary (path signal 0 0.000000 0.000000 0.560000 0.000000))
+    (boundary (path signal 0 0.560000 0.000000 0.560000 0.444882))
+    (boundary (path signal 0 0.560000 0.653543 0.560000 0.950000))
+    (boundary (path signal 0 0.560000 0.950000 0.000000 0.950000))
+    (boundary (path signal 0 0.000000 0.950000 0.000000 0.000000))
+    (boundary (path signal 0 0.560000 0.444882 0.488504 0.444882))
+    (boundary (path signal 0 0.488504 0.444882 0.488504 0.653543))
+    (boundary (path signal 0 0.488504 0.653543 0.560000 0.653543))
+    (via
+       "Round1$0.013000"
+    )
+    (rule (width 0.006000)(clearance 0.006000))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "0402-CAP$SparkFun-Passives" 
+      (place "C1" 0.383315 0.316380 Front 270.000000)
+    )
+    (component "0402-CAP$SparkFun-Passives" 
+      (place "C2" 0.041020 0.304180 Back 270.000000)
+    )
+    (component "AVX_9188_6-WAY_MATING_GUIDE$daspilker" 
+      (place "J1" 0.270000 0.110000 Back 0.000000)
+    )
+    (component "1X01$pinhead" 
+      (place "JP1" 0.060000 0.810000 Front 0.000000)
+    )
+    (component "1X01$pinhead" 
+      (place "JP2" 0.490000 0.810000 Front 0.000000)
+    )
+    (component "LED-0603$SparkFun-LED" 
+      (place "LED1" 0.311875 0.316415 Front 180.000000)
+    )
+    (component "R0402$resistor" 
+      (place "R1" 0.514945 0.316340 Front 270.000000)
+    )
+    (component "R0402$resistor" 
+      (place "R2" 0.450055 0.314650 Front 270.000000)
+    )
+    (component "JEREMIAH_EVQP4_SWITCH$Phoenix_Hoop_94_PolyPro_AlwaysOn" 
+      (place "S1" 0.560000 0.549213 Front 90.000000)
+    )
+    (component "JOYSTICK_MINI_ALPS$TiLDA Mk2 Parts" 
+      (place "SKRHAAE010" 0.222027 0.553731 Back 315.000000)
+    )
+    (component "SOT95P280X145-5N$Microchip_By_element14_Batch_1" 
+      (place "U$1" 0.178675 0.315670 Front 180.000000)
+    )
+    (component "JEREMIAH_USB_MICRO_ZX62R-B-5P$Phoenix_Hoop_94_PolyPro_AlwaysOn" 
+      (place "U$2" 0.265000 0.160000 Front 0.000000)
+    )
+    (component "QFN65P600X600X100-29N$Microchip" 
+      (place "U$4" 0.226225 0.613440 Front 135.000000)
+    )
+    (component "JEREMIAH_LED_STRIP_WS2801_CLENLED$Phoenix_Hoop_94_PolyPro_AlwaysOn" 
+      (place "U$5" 0.290640 0.903820 Back 270.000000)
+    )
+  )
+  (library
+    (image "QFN65P600X600X100-29N$Microchip"
+      (pin "Rectangle1" "1" -0.114000 0.077000)
+      (pin "Rectangle1" "2" -0.114000 0.051000)
+      (pin "Rectangle1" "3" -0.114000 0.026000)
+      (pin "Rectangle1" "4" -0.114000 0.000000)
+      (pin "Rectangle1" "5" -0.114000 -0.026000)
+      (pin "Rectangle1" "6" -0.114000 -0.051000)
+      (pin "Rectangle1" "7" -0.114000 -0.077000)
+      (pin "Rectangle2" "8" -0.077000 -0.114000)
+      (pin "Rectangle2" "9" -0.051000 -0.114000)
+      (pin "Rectangle2" "10" -0.026000 -0.114000)
+      (pin "Rectangle2" "11" 0.000000 -0.114000)
+      (pin "Rectangle2" "12" 0.026000 -0.114000)
+      (pin "Rectangle2" "13" 0.051000 -0.114000)
+      (pin "Rectangle2" "14" 0.077000 -0.114000)
+      (pin "Rectangle1" "15" 0.114000 -0.077000)
+      (pin "Rectangle1" "16" 0.114000 -0.051000)
+      (pin "Rectangle1" "17" 0.114000 -0.026000)
+      (pin "Rectangle1" "18" 0.114000 0.000000)
+      (pin "Rectangle1" "19" 0.114000 0.026000)
+      (pin "Rectangle1" "20" 0.114000 0.051000)
+      (pin "Rectangle1" "21" 0.114000 0.077000)
+      (pin "Rectangle2" "22" 0.077000 0.114000)
+      (pin "Rectangle2" "23" 0.051000 0.114000)
+      (pin "Rectangle2" "24" 0.026000 0.114000)
+      (pin "Rectangle2" "25" 0.000000 0.114000)
+      (pin "Rectangle2" "26" -0.026000 0.114000)
+      (pin "Rectangle2" "27" -0.051000 0.114000)
+      (pin "Rectangle2" "28" -0.077000 0.114000)
+      (pin "Rectangle3" "29" 0.000000 0.000000)
+    )
+    (image "SOT95P280X145-5N$Microchip_By_element14_Batch_1"
+      (pin "Rectangle4" "1" -0.051000 0.037000)
+      (pin "Rectangle4" "2" -0.051000 0.000000)
+      (pin "Rectangle4" "3" -0.051000 -0.037000)
+      (pin "Rectangle4" "4" 0.051000 -0.037000)
+      (pin "Rectangle4" "5" 0.051000 0.037000)
+    )
+    (image "JEREMIAH_EVQP4_SWITCH$Phoenix_Hoop_94_PolyPro_AlwaysOn"
+      (pin "Rectangle5" "1" -0.075787 0.104331)
+      (pin "Rectangle5" "2" 0.075787 0.104331)
+      (pin "Rectangle6" "NC_1" -0.129921 0.041339)
+      (pin "Rectangle6" "NC_2" 0.129921 0.041339)
+    )
+    (image "JEREMIAH_LED_STRIP_WS2801_CLENLED$Phoenix_Hoop_94_PolyPro_AlwaysOn"
+      (pin "Round2" "CLK" 0.000000 0.050000)
+      (pin "Round2" "DATA" 0.000000 -0.050000)
+      (pin "Round2" "GND" 0.000000 -0.150000)
+      (pin "Round2" "VCC" 0.000000 0.150000)
+    )
+    (image "JEREMIAH_USB_MICRO_ZX62R-B-5P$Phoenix_Hoop_94_PolyPro_AlwaysOn"
+      (pin "Rectangle7" "D+_3" 0.000000 0.000000)
+      (pin "Rectangle7" "D-_2" 0.025591 0.000000)
+      (pin "Rectangle7" "GND_5" -0.051181 0.000000)
+      (pin "Rectangle7" "ID_4" -0.025591 0.000000)
+      (pin "Rectangle8" "P$6" -0.122047 0.000000)
+      (pin "Rectangle8" "P$7" 0.122047 0.000000)
+      (pin "Rectangle9" "P$8" -0.047244 -0.088583)
+      (pin "Rectangle9" "P$9" 0.047244 -0.088583)
+      (pin "Rectangle10" "P$10" -0.157480 -0.088583)
+      (pin "Rectangle10" "P$11" 0.157480 -0.088583)
+      (pin "Rectangle7" "VCC_1" 0.051181 0.000000)
+    )
+    (image "LED-0603$SparkFun-LED"
+      (pin "Rectangle11" "A" 0.000000 -0.034528)
+      (pin "Rectangle11" "C" 0.000000 0.034528)
+    )
+    (image "0402-CAP$SparkFun-Passives"
+      (place_keepout(path "1#Top" 0 -0.057992 -0.019016 -0.057992 0.019016 0.057992 0.019016 0.057992 -0.019016 ))
+      (pin "Rectangle12" "1" -0.025591 0.000000)
+      (pin "Rectangle12" "2" 0.025591 0.000000)
+    )
+    (image "JOYSTICK_MINI_ALPS$TiLDA Mk2 Parts"
+      (keepout (circ signal 0.035528 0.000000 0.074803))
+      (keepout (circ signal 0.047339 0.000000 -0.074803))
+      (pin "Rectangle13" "A" -0.140748 0.050197)
+      (pin "Rectangle13" "B" 0.140748 0.050197)
+      (pin "Rectangle13" "C" -0.140748 -0.050197)
+      (pin "Rectangle13" "CTR" -0.140748 0.000000)
+      (pin "Rectangle13" "D" 0.140748 -0.050197)
+      (pin "Rectangle13" "GND" 0.140748 0.000000)
+      (pin "Rectangle14" "NC" 0.000000 0.159449)
+      (pin "Rectangle14" "NC@0" 0.000000 -0.159449)
+    )
+    (image "AVX_9188_6-WAY_MATING_GUIDE$daspilker"
+      (place_keepout(rect "1#Top" -0.265000 -0.175000 0.265000 0.175000))
+      (via_keepout(rect signal -0.265000 -0.175000 0.265000 0.175000))
+      (keepout (circ signal 0.045370 -0.210000 0.000000))
+      (keepout (circ signal 0.045370 0.210000 0.000000))
+      (pin "Rectangle15" "1" -0.118110 -0.039370)
+      (pin "Rectangle15" "2" -0.078740 0.039370)
+      (pin "Rectangle15" "3" -0.039370 -0.039370)
+      (pin "Rectangle15" "4" 0.039370 -0.039370)
+      (pin "Rectangle15" "5" 0.118110 -0.039370)
+      (pin "Rectangle15" "6" 0.078740 0.039370)
+    )
+    (image "1X01$pinhead"
+      (pin "Octagon1" "1" 0.000000 0.000000)
+    )
+    (image "R0402$resistor"
+      (place_keepout(path "1#Top" 0 -0.057992 -0.019016 -0.057992 0.019016 0.057992 0.019016 0.057992 -0.019016 ))
+      (pin "Rectangle12" "1" -0.025591 0.000000)
+      (pin "Rectangle12" "2" 0.025591 0.000000)
+    )
+    (padstack "ViaDefault$0.013000"
+      (shape (circle signal 0.027000 0 0))
+    )
+    (padstack "Round1$0.013000" 
+      (shape (circle "1#Top" 0.027000 0 0))
+      (shape (circle "16#Bottom" 0.027000 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle1" 
+      (shape (rect "1#Top" -0.016000 -0.008500 0.016000 0.008500))
+      (attach off)
+    )
+    (padstack "Rectangle2" 
+      (shape (rect "1#Top" -0.008500 -0.016000 0.008500 0.016000))
+      (attach off)
+    )
+    (padstack "Rectangle3" 
+      (shape (rect "1#Top" -0.073000 -0.073000 0.073000 0.073000))
+      (attach off)
+    )
+    (padstack "Rectangle4" 
+      (shape (rect "1#Top" -0.025000 -0.011000 0.025000 0.011000))
+      (attach off)
+    )
+    (padstack "Rectangle5" 
+      (shape (rect "1#Top" -0.028543 -0.020669 0.028543 0.020669))
+      (attach off)
+    )
+    (padstack "Rectangle6" 
+      (shape (rect "1#Top" -0.015748 -0.023622 0.015748 0.023622))
+      (attach off)
+    )
+    (padstack "Round2"       (shape (circle "1#Top" 0.078740 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle7" 
+      (shape (rect "1#Top" -0.007874 -0.031496 0.007874 0.031496))
+      (attach off)
+    )
+    (padstack "Rectangle8" 
+      (shape (rect "1#Top" -0.041339 -0.031496 0.041339 0.031496))
+      (attach off)
+    )
+    (padstack "Rectangle9" 
+      (shape (rect "1#Top" -0.037402 -0.037402 0.037402 0.037402))
+      (attach off)
+    )
+    (padstack "Rectangle10" 
+      (shape (rect "1#Top" -0.035433 -0.037402 0.035433 0.037402))
+      (attach off)
+    )
+    (padstack "Rectangle11" 
+      (shape (rect "1#Top" -0.019685 -0.019685 0.019685 0.019685))
+      (attach off)
+    )
+    (padstack "Rectangle12" 
+      (shape (rect "1#Top" -0.013780 -0.017717 0.013780 0.017717))
+      (attach off)
+    )
+    (padstack "Rectangle13" 
+      (shape (rect "1#Top" -0.026575 -0.019685 0.026575 0.019685))
+      (attach off)
+    )
+    (padstack "Rectangle14" 
+      (shape (rect "1#Top" -0.039370 -0.035433 0.039370 0.035433))
+      (attach off)
+    )
+    (padstack "Rectangle15" 
+      (shape (rect "1#Top" -0.017717 -0.033465 0.017717 0.033465))
+      (attach off)
+    )
+    (padstack "Octagon1" 
+      (shape (polygon "1#Top" 0 0.030000 0.012426 0.012426 0.030000 -0.012426 0.030000 -0.030000 0.012426 -0.030000 -0.012426 -0.012426 -0.030000 0.012426 -0.030000 0.030000 -0.012426 ))
+      (shape (polygon "16#Bottom" 0 0.030000 0.012426 0.012426 0.030000 -0.012426 0.030000 -0.030000 0.012426 -0.030000 -0.012426 -0.012426 -0.030000 0.012426 -0.030000 0.030000 -0.012426 ))
+      (attach off)
+    )
+  )
+  (network
+    (net "5V"
+      (pins  "U$2"-"VCC_1" "U$1"-"4" "C1"-"2" "R1"-"2")
+    )
+    (net "GND"
+      (pins  "JP2"-"1" "U$2"-"GND_5" "U$1"-"2" "R2"-"1" "C1"-"1" "C2"-"1" "J1"-"6" "S1"-"2" "U$4"-"16" "U$4"-"5" "SKRHAAE010"-"GND" "U$5"-"GND")
+    )
+    (net "ICSPCLK"
+      (pins  "J1"-"3" "U$4"-"24")
+    )
+    (net "ICSPDAT"
+      (pins  "J1"-"1" "U$4"-"25" "U$5"-"CLK")
+    )
+    (net "MCLR"
+      (pins  "J1"-"5" "U$4"-"26")
+    )
+    (net "N$1"
+      (pins  "U$1"-"5" "R2"-"2")
+    )
+    (net "N$2"
+      (pins  "R1"-"1" "LED1"-"A")
+    )
+    (net "N$3"
+      (pins  "LED1"-"C" "U$1"-"1")
+    )
+    (net "N$15"
+      (pins  "U$4"-"6")
+    )
+    (net "RA0"
+      (pins  "U$4"-"27" "S1"-"1")
+    )
+    (net "RA1"
+      (pins  "U$4"-"28" "SKRHAAE010"-"A")
+    )
+    (net "RA2"
+      (pins  "U$4"-"1" "SKRHAAE010"-"D")
+    )
+    (net "RA3"
+      (pins  "SKRHAAE010"-"B" "U$4"-"2")
+    )
+    (net "RA4"
+      (pins  "SKRHAAE010"-"C" "U$4"-"3")
+    )
+    (net "RA5"
+      (pins  "SKRHAAE010"-"CTR" "U$4"-"4")
+    )
+    (net "RA6"
+      (pins  "U$4"-"7")
+    )
+    (net "SDO"
+      (pins  "U$4"-"23" "U$5"-"DATA")
+    )
+    (net "V_BATT"
+      (pins  "JP1"-"1" "C2"-"2" "U$1"-"3" "J1"-"2" "U$4"-"17" "U$5"-"VCC")
+    )
+  )
+  (wiring
+  )
+)

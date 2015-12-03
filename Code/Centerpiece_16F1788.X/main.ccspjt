@@ -1,0 +1,31 @@
+[PROJECT]
+Target=build\16F1788\production\main.hex
+Processor_Text=PIC16F1788
+CCSVersion=5.008
+Compiler=PCM
+[Target Data]
+FileList=build\16F1788\production\main.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\;C:\Users\Matt\Documents\Projects\Wedding\LED Centerpiece\Code\Centerpiece.X\;C:\Users\Matt\Documents\Projects\Wedding\LED Centerpiece\Code\Centerpiece_16F1788.X\;C:\Users\Matt\Documents\Projects\Wedding\LED Centerpiece\Code\Centerpiece_16F1788.X\C:\Program Files (x86)\PICC\devices\
+[build\default\production\main.c]
+Type=4
+[mru-list]
+1=build\16F1788\production\main.c
+[build\default\debug\main.c]
+Type=4
+[Opened Files]
+1=main.c
+2=..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Examples\ex_rtos_demo_1_tasks.c
+3=..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\16F1788.h
+4=
+[main.c]
+Type=4
+[build\18F25K22\production\main.c]
+Type=4
+[build\16F1788\production\main.c]
+Type=4
+[build\16F1788\debug\main.c]
+Type=4
+[Units]
+Count=1
+1=main (main)

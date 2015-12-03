@@ -1,0 +1,123 @@
+/* 
+ * File:   main.c
+ * Author: Matt Wasserman
+ * Control Wedding LED Centerpieces
+ *
+ * Created on September 1, 2014, 5:54 PM
+ */
+
+#include <16F1788.h>
+#fuses INTRC_IO, NOMCLR, NOBROWNOUT, NOWDT
+#include <stdio.h>
+#include <stdlib.h>
+
+
+#USE DELAY(clock=32MHZ)
+#USE SPI (MASTER, SPI1, MODE=0, BITS=8, STREAM=SPI_1, MSB_FIRST)
+#use rtos(timer=0,minor_cycle=100ms)
+//#USE FAST_IO (A)
+
+/* DEFINES */
+#define TDots 6 // number of LEDs on the strip
+#define RAND_MAX 255
+
+/* GLOBAL VARIABLES*/
+unsigned int32 node_list[TDots];
+
+/*Additonal Includes*/
+#include <WS2801_SPI.h>
+
+/* HELPER FUNCTIONS*/
+
+/*MAIN FUNCTION*/
+int main(int argc, char** argv) {
+    //setup the IC
+    setup_oscillator(OSC_8MHZ | OSC_PLL_ON); //32MHZ
+    //set_tris_a(0b00000000);
+    setup_spi (SPI_MASTER | SPI_CLK_DIV_64 | SPI_DO_B5 | SPI_SCK_B7);
+
+    unsigned int16 i;
+
+    //clear the led_strup_colors variable
+    setup();
+    send_frame();
+
+
+    //test IO
+    /*
+    while (1){
+        OUTPUT_HIGH(PIN_A0);
+        delay_ms(100);
+        OUTPUT_LOW(PIN_A0);
+        delay_ms(100);
+    }
+    */
+
+    //startup test of all colors
+    //make all red
+    MakeAllColor(Color(255, 0, 0));
+    delay_ms(1000);
+    //make all green
+    MakeAllColor(Color(0, 255, 0));
+    delay_ms(1000);
+    //make all blue
+    MakeAllColor(Color(0, 0, 255));
+    delay_ms(1000);
+
+
+     //Slow fade all colors
+    while(1){
+        for(i=0; i<768; i++){
+           MakeAllColor(Wheel(i));
+           delay_ms(200);
+        }
+    }
+
+    /*
+    node_list[0] = 0xFF0000;  // red
+    node_list[1] = 0x00FF00;  // green
+    node_list[2] = 0x0000FF;  // blue
+    node_list[3] = 0x00FFFF;  // green + blue
+    node_list[4] = 0xFF00FF;  // red + blue
+    node_list[5] = 0xFFFF00;  // red + green
+    send_frame();
+
+    delay_ms(5000);
+
+    for(i=0;i<TDots;i++) {				// Let's be patriotic! (Red, White, Blue)
+      if((i%3) == 0) {node_list[i] = 0xFF0000;}
+      if((i%3) == 1) {node_list[i] = 0xFFFFFF;}
+      if((i%3) == 2) {node_list[i] = 0x0000FF;}
+    }
+    send_frame();
+
+    delay_ms(10000);
+
+    for(i=0;i<TDots;i++) {				// Happy Saint Patrick's Day! (Green/White)
+      if((i%2) == 0) {node_list[i] = 0x00FF00;}
+      if((i%2) == 1) {node_list[i] = 0xFFFFFF;}
+    }
+    send_frame();
+
+    delay_ms(10000);
+
+    for(i=0;i<TDots;i++) {				// Let's go Yankees! (Blue/White)
+      if((i%2) == 0) {node_list[i] = 0x0000FF;}
+      if((i%2) == 1) {node_list[i] = 0xFFFFFF;}
+    }
+    send_frame();
+
+    delay_ms(10000);
+
+    for(i = 0 ; i < TDots ; i++) {node_list[i] = 0;}
+    send_frame();
+
+    while(true) {
+      addRandom();
+      send_frame();
+      delay_ms(100);
+    }
+     *
+     */
+
+}

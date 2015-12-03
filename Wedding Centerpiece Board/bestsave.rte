@@ -1,0 +1,285 @@
+ (routes 
+  (resolution inch 254000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer 1#TOP (type signal)
+   )
+   (layer 16#BOTTOM (type signal)
+   )
+  )
+  (library_out
+  (padstack Round1$0.013000
+   (shape (circ 1#TOP 6858 0 0))
+   (shape (circ 16#BOTTOM 6858 0 0))
+  )
+  )
+  (network_out
+   (Net 5V 
+   (wire (path 1#TOP 1524  103421 107986 121794 107986 121794 77351
+     130796 77351 130796 73850)
+    (connect (terminal via) (terminal smd R1-2))
+   )
+   (wire (path 1#TOP 1524  54405 97325 38780 97325 38780 89578
+     32429 89578)
+    (connect (terminal via) (terminal smd U$1-4))
+   )
+   (wire (path 16#BOTTOM 1524  103421 107986 101483 107986 101483 89858
+     54405 89858 54405 97325)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path 1#TOP 1524  103421 107986 89550 107986 89550 74676
+     97362 74676 97362 73860)
+    (connect (terminal via) (terminal smd C1-2))
+   )
+   (via Round1$0.013000 54405 97325)
+   (via Round1$0.013000 103421 107986
+    (attr fanout))
+   )
+   (Net GND 
+   (wire (path 1#TOP 1524  110399 202901 113447 202901 113447 158750
+     115740 158750)
+    (connect (terminal via) (terminal smd S1-2))
+   )
+   (wire (path 16#BOTTOM 1524  47035 77343 48580 77343 48580 37940
+     48580 37940)
+    (connect (terminal via) (terminal smd J1-6))
+   )
+   (wire (path 16#BOTTOM 1524  111923 205740 110399 205740 110399 202901)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path 1#TOP 1524  47035 77343 47035 80180 58338 80180)
+    (connect (terminal via) (terminal smd U$1-2))
+   )
+   (wire (path 16#BOTTOM 1524  111923 229570 111923 205740)
+    (connect (terminal smd U$5-GND) (terminal wire))
+   )
+   (wire (path 16#BOTTOM 1524  111923 205740 124460 205740)
+    (connect (terminal wire) (terminal pin JP2-1))
+   )
+   (wire (path 16#BOTTOM 1524  111923 205740 111923 205740)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path 16#BOTTOM 1524  47035 77343 31794 77343 31794 83762
+     10419 83762)
+    (connect (terminal via) (terminal smd C2-1))
+   )
+   (wire (path 1#TOP 1524  97362 86861 86502 86861 86502 97325
+     65454 97325)
+    (connect (terminal smd C1-1) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  32695 125963 32695 144237 5334 144237
+     5334 193389 47545 193389 47545 202901)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path 1#TOP 1524  47545 202901 110399 202901)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path 1#TOP 1524  115740 158750 115740 137135 82606 137135
+     82606 140009)
+    (connect (terminal smd S1-2) (terminal smd U$4-5))
+   )
+   (wire (path 16#BOTTOM 1524  32695 125963 44758 125963 44758 117871
+     68883 117871 68883 97325 65454 97325)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  32695 125963 32695 115369 31116 115369)
+    (connect (terminal wire) (terminal smd SKRHAAE010-GND))
+   )
+   (wire (path 1#TOP 1524  46146 185449 44130 185449 44130 202901
+     47545 202901)
+    (connect (terminal smd U$4-16) (terminal via))
+   )
+   (wire (path 1#TOP 1524  66974 88562 66974 80180 58338 80180)
+    (connect (terminal wire) (terminal smd U$1-2))
+    (attr fanout)
+   )
+   (wire (path 1#TOP 1524  65454 97325 66974 97325 66974 88562)
+    (connect (terminal via) (terminal wire))
+    (attr fanout)
+   )
+   (via Round1$0.013000 110399 202901)
+   (via Round1$0.013000 47545 202901)
+   (via Round1$0.013000 65454 97325
+    (attr fanout))
+   (via Round1$0.013000 47035 77343
+    (attr fanout))
+   )
+   (Net ICSPCLK 
+   (wire (path 16#BOTTOM 1524  20202 89477 51357 89477 51357 86810
+     78580 86810 78580 17940)
+    (connect (terminal via) (terminal smd J1-3))
+   )
+   (wire (path 1#TOP 1524  32317 140009 32317 137812 2286 137812
+     2286 105708 20202 105708 20202 89477)
+    (connect (terminal smd U$4-24) (terminal via))
+   )
+   (via Round1$0.013000 20202 89477)
+   )
+   (Net ICSPDAT 
+   (wire (path 16#BOTTOM 1524  97096 214617 97096 187293 112913 187293
+     112913 63897 98580 63897 98580 17940)
+    (connect (terminal via) (terminal smd J1-1))
+   )
+   (wire (path 1#TOP 1524  61123 214617 61123 214617 97096 214617)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  61123 214617 61123 229570)
+    (connect (terminal via) (terminal smd U$5-CLK))
+    (attr fanout)
+   )
+   (via Round1$0.013000 97096 214617)
+   (via Round1$0.013000 61123 214617
+    (attr fanout))
+   )
+   (Net MCLR 
+   (wire (path 1#TOP 1524  41656 130669 41656 127305 14554 127305
+     14554 116757 8839 116757)
+    (connect (terminal smd U$4-26) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  8839 116757 10668 116757 10668 95192
+     36366 95192 36366 17940 38580 17940)
+    (connect (terminal via) (terminal smd J1-5))
+   )
+   (via Round1$0.013000 8839 116757)
+   )
+   (Net N$1 
+   (wire (path 1#TOP 1524  107198 99604 107198 76921 114314 76921
+     114314 73421)
+    (connect (terminal via) (terminal smd R2-2))
+   )
+   (wire (path 16#BOTTOM 1524  21127 77343 26336 77343 26336 2286
+     107198 2286 107198 99604)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path 1#TOP 1524  32429 70782 32429 77343 21127 77343)
+    (connect (terminal smd U$1-5) (terminal via))
+   )
+   (via Round1$0.013000 107198 99604)
+   (via Round1$0.013000 21127 77343)
+   )
+   (Net N$2 
+   (wire (path 1#TOP 1524  88637 130398 88637 117202 81176 117202
+     81176 89140 79216 89140)
+    (connect (terminal via) (terminal smd LED1-A))
+   )
+   (via Round1$0.013000 88637 130398
+    (attr fanout))
+   )
+   (Net N$3 
+   (wire (path 1#TOP 1524  79216 71599 79216 78885 71930 78885
+     71930 74676 58338 74676 58338 70782 58338 70782)
+    (connect (terminal smd LED1-C) (terminal smd U$1-1))
+   )
+   )
+   (Net N$15 
+   )
+   (Net RA0 
+   (wire (path 1#TOP 1524  46146 126179 46146 123983 40984 123983
+     40984 106088 78128 106088 78128 120250 115740 120250)
+    (connect (terminal smd U$4-27) (terminal smd S1-1))
+   )
+   )
+   (Net RA1 
+   (wire (path 1#TOP 1524  53393 111803 53393 121509 50816 121509)
+    (connect (terminal via) (terminal smd U$4-28))
+   )
+   (wire (path 16#BOTTOM 1524  72658 174942 70405 174942 70405 160463
+     53393 160463 53393 111803 53393 111803)
+    (connect (terminal smd SKRHAAE010-A) (terminal via))
+   )
+   (via Round1$0.013000 53393 111803)
+   )
+   (Net RA2 
+   (wire (path 1#TOP 1524  61775 112156 61775 121509 64107 121509)
+    (connect (terminal via) (terminal smd U$4-1))
+   )
+   (wire (path 16#BOTTOM 1524  40132 106353 40132 105305 61775 105305
+     61775 112156)
+    (connect (terminal smd SKRHAAE010-D) (terminal via))
+   )
+   (via Round1$0.013000 61775 112156)
+   )
+   (Net RA3 
+   (wire (path 16#BOTTOM 1524  8839 127316 8839 124384 22100 124384)
+    (connect (terminal via) (terminal smd SKRHAAE010-B))
+   )
+   (via Round1$0.013000 8839 127316
+    (attr fanout))
+   )
+   (Net RA4 
+   (wire (path 1#TOP 1524  73266 130669 73266 127031 79216 127031
+     79216 123298 97400 123298 97400 130398)
+    (connect (terminal smd U$4-3) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  97400 130398 97400 143269 90690 143269
+     90690 156911)
+    (connect (terminal via) (terminal smd SKRHAAE010-C))
+   )
+   (via Round1$0.013000 97400 130398)
+   )
+   (Net RA5 
+   (wire (path 16#BOTTOM 1524  101119 170700 81674 170700 81674 165927)
+    (connect (terminal via) (terminal smd SKRHAAE010-CTR))
+   )
+   (via Round1$0.013000 101119 170700
+    (attr fanout))
+   )
+   (Net RA6 
+   )
+   (Net SDO 
+   (wire (path 16#BOTTOM 1524  11049 149952 11049 190341 86523 190341
+     86523 229570)
+    (connect (terminal via) (terminal smd U$5-DATA))
+   )
+   (wire (path 1#TOP 1524  27826 144499 27826 142482 11049 142482
+     11049 149952)
+    (connect (terminal smd U$4-23) (terminal via))
+   )
+   (via Round1$0.013000 11049 149952)
+   )
+   (Net V_BATT 
+   (wire (path 1#TOP 1524  4953 96945 4953 83058 41828 83058
+     41828 89578 58338 89578)
+    (connect (terminal via) (terminal smd U$1-3))
+   )
+   (wire (path 16#BOTTOM 1524  29914 214122 29914 205740)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  15240 205740 15240 214122 29914 214122)
+    (connect (terminal pin JP1-1) (terminal wire))
+   )
+   (wire (path 16#BOTTOM 1524  29914 214122 29914 229570 35723 229570)
+    (connect (terminal wire) (terminal smd U$5-VCC))
+   )
+   (wire (path 16#BOTTOM 1524  15240 205740 2286 205740 2286 107994
+     4953 107994 4953 96945)
+    (connect (terminal pin JP1-1) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  7192 54150 7192 48054 3303 48054
+     3303 96945 4953 96945)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path 16#BOTTOM 1524  88580 37940 88580 5334 29384 5334
+     29384 54150 7192 54150)
+    (connect (terminal smd J1-2) (terminal wire))
+   )
+   (wire (path 16#BOTTOM 1524  7192 54150 7192 57198)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path 1#TOP 1524  29914 205740 38782 205740 38782 180959
+     41656 180959)
+    (connect (terminal via) (terminal smd U$4-17))
+   )
+   (wire (path 16#BOTTOM 1524  7192 57198 17535 57198 17535 70762
+     10419 70762)
+    (connect (terminal wire) (terminal smd C2-2))
+    (attr fanout)
+   )
+   (via Round1$0.013000 29914 205740)
+   (via Round1$0.013000 4953 96945)
+   )
+  )
+ )

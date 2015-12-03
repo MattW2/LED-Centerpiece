@@ -1,0 +1,5 @@
+C:\Users\Matt\Documents\Projects\Wedding\LED Centerpiece\Code\Centerpiece_16F1788.X\LED_Array.c:131:1:  Warning#205  Unsigned variable is never less than zero
+C:\Users\Matt\Documents\Projects\Wedding\LED Centerpiece\Code\Centerpiece_16F1788.X\LED_Array.c:131:1:  Warning#204  Condition always FALSE
+      Memory usage:   ROM=33%      RAM=43% - 49%
+      0 Errors,  2 Warnings.
+Build Successful.

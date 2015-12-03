@@ -1,0 +1,24 @@
+ÀÄCenterpiece_16F1788
+   ÀÄMAIN  0/174  Ram=7
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄsetup  0/29  Ram=3
+      ÃÄsend_frame  0/148  Ram=10
+      ³  ÀÄ@delay_us1  (Inline)  Ram=1
+      ÃÄColor  0/49  Ram=13
+      ÃÄMakeAllColor  0/29  Ram=7
+      ³  ÀÄsend_frame  0/148  Ram=10
+      ³     ÀÄ*
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄColor  0/49  Ram=13
+      ÃÄMakeAllColor  0/29  Ram=7
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄColor  0/49  Ram=13
+      ÃÄMakeAllColor  0/29  Ram=7
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄWheel  0/74  Ram=8
+      ³  ÀÄColor  0/49  Ram=13
+      ÃÄMakeAllColor  0/29  Ram=7
+      ³  ÀÄ*
+      ÀÄ@delay_ms1  0/21  Ram=1

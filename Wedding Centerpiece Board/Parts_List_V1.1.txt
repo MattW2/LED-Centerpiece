@@ -1,0 +1,28 @@
+Partlist
+
+Exported from Wedding_Centerpiece_Controller_V1.1.brd at 10/18/2014 9:15:25 AM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value                                     Package                                    Library                          Position (inch)       Orientation
+
+C1       4.7u                                      0402-CAP                                   SparkFun-Passives                (0.4 0.31)            R90
+C2       4.7u                                      0402-CAP                                   SparkFun-Passives                (0.05601993 0.34918)  MR270
+J1       ISPTOUCH_HEADER                           AVX_9188_6-WAY_MATING_GUIDE                daspilker                        (0.27 0.125)          MR0
+JP1      VCC                                       1X01                                       pinhead                          (0.075 0.81)          R0
+JP2      GND                                       1X01                                       pinhead                          (0.49 0.81)           R0
+LED1     RED                                       LED-0603                                   SparkFun-LED                     (0.31187488 0.31641511) R180
+LED2     GREEN                                     LED-0603                                   SparkFun-LED                     (0.385 0.915)         R0
+Q1       PCHANNELSOT23 Si2301CDS-T1-E3             JEREMIAH_SOT23                             Phoenix_Hoop_94_PolyPro_AlwaysOn (0.088 0.919)         MR270
+R1       4.7k                                      R0402                                      resistor                         (0.51 0.31)           R270
+R2       2K                                        R0402                                      resistor                         (0.455 0.31)          R270
+R3       4.7k                                      R0402                                      resistor                         (0.247 0.916)         MR270
+R4       4.7k                                      R0402                                      resistor                         (0.095 0.91)          R180
+S1       JEREMIAH_SWITCH-MOMENTARY-2EVQP4          JEREMIAH_EVQP4_SWITCH                      Phoenix_Hoop_94_PolyPro_AlwaysOn (0.55 0.55039395)     R90
+U1       MCP73832T-2ACI/OT                         SOT95P280X145-5N                           Microchip_By_element14_Batch_1   (0.17867483 0.31566991) R180
+U2       JEREMIAH_USB_MICROB_PLUGZX62R-B-5P        JEREMIAH_USB_MICRO_ZX62R-B-5P              Phoenix_Hoop_94_PolyPro_AlwaysOn (0.26321998 0.15679503) R0
+U3       JEREMIAH_LED_STRIP_WS2801CLENLED_2L_BEGIN JEREMIAH_LED_STRIP_WS2801_CLENLED_2L_BEGIN Phoenix_Hoop_94_PolyPro_AlwaysOn (0.29 1.04)           R90
+U4       PIC16F1788-I/ML                           QFN65P600X600X100-29N                      Microchip                        (0.21377498 0.58656016) R315
+U5       JOYSTICK_5_WAYSKRHAAE010                  ALPS_SKRHAAE010                            Switches                         (0.22560667 0.57525123) MR315
